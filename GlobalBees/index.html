@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap Navbar with Dropdown</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+<link rel="stylesheet" href="index.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="header">
+        <h6>Trusted over by 2.5lakh women in their health journey</h6>
+    </div>
+<div class="m-8">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <form class="d-flex">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                    <button type="button" class="btn btn-secondary"><i class="bi-search"></i></button>
+                </div>
+            </form>
+            <img src="download.png"></img>
+            <div class ="menu">
+           
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav">
+                    <a href="#" class="nav-item nav-link active">Home</a>
+                    <a href="#" class="nav-item nav-link">Products</a>
+                    <a href="#" class="nav-item nav-link">Kits</a>
+                    <a href="#" class="nav-item nav-link">About us</a>
+                    <a href="#" class="nav-item nav-link">Faq</a>
+                    <a href="#" class="nav-item nav-link">My Account</a>
+                    <a href="#" class="nav-item nav-link">Cart <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                      </svg></a>
+                   
+                </div>
+            </div>
+               
+            </div>
+
+        </div>
+    </nav>
+</div>
+    <div class=" container container-md-fluid">
+        <div class="row ">
+            <div class="col-auto col-md-5 ">
+                <nav aria-label="breadcrumb " class="first d-md-flex">
+                    <ol class="breadcrumb indigo lighten-6 first-1 shadow-lg mb-8 ">
+                        <li class="breadcrumb-item font-weight-bold"><span>home</span><img class="ml-md-3" src="https://img.icons8.com/offices/30/000000/double-right.png" width="20" height="20"> </li>
+                        <li class="breadcrumb-item font-weight-bold"><span>account</span><img class="ml-md-3" src="https://img.icons8.com/offices/30/000000/double-right.png" width="20" height="20"></li>
+                        <li class="breadcrumb-item font-weight-bold"><span>Order history</span><img class="ml-md-3" src="https://img.icons8.com/offices/30/000000/double-right.png" width="20" height="20"> </li>
+                        <li class="breadcrumb-item font-weight-bold"><span>Order detail</span><img class="ml-md-3" src="https://img.icons8.com/offices/30/000000/double-right.png" width="20" height="20"> </li>
+                        </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+    
+    <h2 style="text-align: center;" >Order Details</h2>
+   <div class="row">
+    <div class="col-sm-3">
+    <div class="card" style="width: 18rem;">
+        <div class="card-header">
+          Featured
+        </div>
+        <ul class="list-group ">
+          <li class="list-group-item">Account details</li>
+          <li class="list-group-item">My Address</li>
+          <li class="list-group-item">My Subscriptions</li>
+          <li class="list-group-item">Logout</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-sm-9">
+        <table class="table">
+            
+            <thead>
+               
+                <tr>
+                <th scope="col">ORDER NUMBER
+                    <h6>402-8556075-7686710</h6>
+                </th>
+               
+                <th scope="col">ORDER DATE
+                    <h6>5 August 2021</h6>
+                </th>
+                <th scope="col">ORDER TOTAL
+                    <h6>Rs.9,620.10</h6>
+                </th>
+                <th scope="col">PAYMENT
+                    <h6>Prepaid, completed</h6>
+                </th>
+                <th scope="col">ORDER STATUS
+                    <h6>CONFIRMED</h6>
+                </th>
+                
+            </tr></thead>
+            <thead>    
+        <tr>
+            <td>Product</td>
+            <td>SKU</td>
+            <td>PRICE</td>
+            <td>QUANTITY</td>
+            <td>TOTAL</td>
+            <td>Ship to</td>
+            
+        </tr>
+            </thead>
+            
+            <tbody>
+                
+              <tr >
+                  <td >Floor cleaning liq...</td>
+                  <td>SB-FK1123</td>
+                  <td>500.00</td>
+                  <td>1</td>
+                  <td>Rs.500</td>
+                  <td>
+                      <address>
+                       
+                        Rahul 
+                        1st Floor,Saket District Centre, <br />
+                        Pushp Vihar NEW DELHI, DELHI 110017, <br />
+                        Phone: 9013268178
+                      </address>
+                  </td>
+              </tr>
+              <tr >
+                <td >Floor cleaning liq...</td>
+                <td>SB-FK1123</td>
+                <td>500.00</td>
+                <td>1</td>
+                <td>Rs.500</td>
+
+            </tr>
+            <tr >
+                <td >Floor cleaning liq...</td>
+                <td>SB-FK1123</td>
+                <td>500.00</td>
+                <td>1</td>
+                <td>Rs.500 </td>
+                <td>
+                    <address>
+                       
+                        Rahul 
+                        1st Floor,Saket District Centre, <br />
+                        Pushp Vihar NEW DELHI, DELHI 110017, <br />
+                        Phone: 9013268178
+                      </address>
+                </td>
+            </tr>
+            <tr >
+                <td >Floor cleaning liq...</td>
+                <td>SB-FK1123</td>
+                <td>500.00</td>
+                <td>1</td>
+                <td>Rs.500</td>
+            </tr>
+             
+                
+                  
+            </tbody>
+          </table>
+    </div>
+
+
+</div>
+<div class="row">
+    <div class="col-md-3"></div>
+<div class="col-md-9">
+<div class="panel panel-default" id="pannel">
+    <div class="panel-heading">Shippments</div>
+    <div class="panel-body">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">AWB number</th>
+                    <th scope="col">PACKAGE CONTENT</th>
+                    <th scope="col">ORDER STATUS</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>DISPATCH DATE
+                        <h6>5 August 2021</h6>
+                    </td>
+                    <td><h6>Multipurpose cleaner  1</h6> 
+                        <h6> 500ml Bottle    1 </h6>         
+                            <h6> Coconut Scrub Pads Pack of 3   1</h6>     </td>
+                            <td>
+                                <h6>Order Status</h6>
+                                <h5 style="color: turquoise;">Delivered</h5>
+                                <button type="button" class="btn btn-outline-primary">Track Shipment</button>
+                              
+                            </td>
+                </tr>
+                <tr>
+                    <td>ETA
+                        <h6>5 August 2021</h6>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+  </div>
+</div>
+</div>
+<div class="row">
+    <div class="col-md-3"></div>
+<div class="col-md-9">
+<div class="panel panel-default" id="pannel">
+    <div class="panel-heading" style="font-weight: 800;">Shippments</div>
+    <div class="panel-body">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">AWB number</th>
+                    <th scope="col">PACKAGE CONTENT</th>
+                    <th scope="col">ORDER STATUS</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>DISPATCH DATE
+                        <h6>5 August 2021</h6>
+                    </td>
+                    <td><h6>Multipurpose cleaner  1</h6> 
+                        <h6> 500ml Bottle    1 </h6>         
+                            <h6> Coconut Scrub Pads Pack of 3   1</h6>     </td>
+                            <td>
+                                <h6>Order Status</h6>
+                                <h5 style="color: turquoise;">In Transit</h5>
+                                <button type="button" class="btn btn-outline-primary">Track </button><br />
+                                <button type="button" class="btn btn-outline-primary">Return or Replace </button>
+                            </td>
+                </tr>
+                <tr>
+                    <td>ETA
+                        <h6>5 August 2021</h6>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+  </div>
+</div>
+</div>
+</body>
+</html>
